@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait of Dr. Parmila Singh</title>
+  <desc id="desc">A professional doctor portrait inspired by the provided reference photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d73c9" />
+      <stop offset="1" stop-color="#0953a8" />
+    </linearGradient>
+    <linearGradient id="sari" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd94d" />
+      <stop offset=".55" stop-color="#f3b536" />
+      <stop offset="1" stop-color="#f2c45a" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#052c5a" flood-opacity=".24" />
+    </filter>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)" />
+  <rect x="22" y="22" width="556" height="556" rx="12" fill="none" stroke="#032d5e" stroke-width="10" opacity=".75" />
+  <circle cx="502" cy="110" r="76" fill="#ffffff" opacity=".08" />
+  <circle cx="96" cy="498" r="108" fill="#ffffff" opacity=".08" />
+
+  <g filter="url(#shadow)">
+    <path d="M62 600c22-137 100-219 238-219s216 82 238 219H62Z" fill="url(#sari)" />
+    <path d="M336 404c70 36 118 101 142 196H250c31-78 60-143 86-196Z" fill="#f7cb58" opacity=".9" />
+    <path d="M144 475c80 26 164 66 252 125H118c8-46 17-87 26-125Z" fill="#ffe87a" opacity=".62" />
+    <path d="M258 416l42 62 42-62c-28-15-56-15-84 0Z" fill="#f8d7c8" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M197 235c-17 2-29 19-25 44 4 29 20 45 38 42l-13-86Z" fill="#b87461" />
+    <path d="M403 235c17 2 29 19 25 44-4 29-20 45-38 42l13-86Z" fill="#b87461" />
+    <path d="M203 211c0-78 36-137 97-137s97 59 97 137v70c0 78-43 138-97 138s-97-60-97-138v-70Z" fill="#d2a190" />
+    <path d="M207 211c14-54 51-86 93-86s79 32 93 86c-25-22-52-33-82-34-38-1-72 10-104 34Z" fill="#111724" />
+    <path d="M183 271c4-111 41-191 117-191s113 80 117 191c-17-58-34-93-51-105-20-14-42-21-66-21s-46 7-66 21c-17 12-34 47-51 105Z" fill="#0c111c" opacity=".96" />
+    <path d="M190 396c19 5 38-7 50-37-23-47-35-101-37-162-26 32-39 83-39 153 0 27 9 42 26 46Z" fill="#0c111c" />
+    <path d="M410 396c-19 5-38-7-50-37 23-47 35-101 37-162 26 32 39 83 39 153 0 27-9 42-26 46Z" fill="#0c111c" />
+    <path d="M258 268c15-9 33-9 51 0" fill="none" stroke="#6d463c" stroke-width="5" stroke-linecap="round" opacity=".45" />
+    <path d="M322 268c15-9 31-9 48 0" fill="none" stroke="#6d463c" stroke-width="5" stroke-linecap="round" opacity=".45" />
+    <path d="M291 321c7 5 16 5 27 0" fill="none" stroke="#9b675b" stroke-width="5" stroke-linecap="round" />
+    <path d="M268 356c23 13 45 13 66 0" fill="none" stroke="#91433c" stroke-width="6" stroke-linecap="round" />
+    <path d="M300 132l-12 64h24l-12-64Z" fill="#b51e22" opacity=".88" />
+  </g>
+
+  <g fill="#f8e993" opacity=".58">
+    <circle cx="156" cy="504" r="7" />
+    <circle cx="204" cy="536" r="6" />
+    <circle cx="394" cy="478" r="7" />
+    <circle cx="448" cy="548" r="6" />
+    <circle cx="326" cy="536" r="5" />
+  </g>
+</svg>

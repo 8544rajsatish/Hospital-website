@@ -63,19 +63,21 @@ a {
 
 .brand-mark {
   align-items: center;
-  background: var(--teal);
-  border-radius: 8px;
-  color: var(--white);
+  background: #050505;
+  border-radius: 50%;
+  box-shadow: 0 8px 18px rgba(5, 35, 50, 0.16);
   display: grid;
   flex: 0 0 auto;
-  height: 42px;
+  height: 56px;
+  overflow: hidden;
   place-items: center;
-  width: 42px;
+  width: 56px;
 }
 
-.brand-mark svg {
-  fill: currentColor;
-  width: 24px;
+.brand-mark img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .brand strong,

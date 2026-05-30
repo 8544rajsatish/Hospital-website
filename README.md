@@ -1,6 +1,6 @@
-# Sheo Bachan Singh Child Specialist Hospital Website
+# Sheo Bachan Singh Child Specialist Website
 
-A responsive child specialist hospital website project with pediatric emergency care, child services, doctors, vaccination, appointment booking, patient support, and contact sections.
+A responsive child specialist website project with pediatric emergency care, child services, doctors, vaccination, appointment booking, patient support, and contact sections.
 
 ## Run locally
 

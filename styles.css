@@ -64,19 +64,19 @@ a {
 .brand-mark {
   align-items: center;
   background: #050505;
-  border-radius: 50%;
-  box-shadow: 0 8px 18px rgba(5, 35, 50, 0.16);
+  border-radius: 4px;
+  box-shadow: 0 8px 18px rgba(5, 35, 50, 0.18);
   display: grid;
   flex: 0 0 auto;
-  height: 56px;
+  height: 72px;
   overflow: hidden;
   place-items: center;
-  width: 56px;
+  width: 72px;
 }
 
 .brand-mark img {
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -596,6 +596,15 @@ a {
   gap: 14px;
 }
 
+.contact-logo {
+  background: #050505;
+  border-radius: 4px;
+  box-shadow: 0 16px 36px rgba(5, 35, 50, 0.16);
+  height: 128px;
+  object-fit: contain;
+  width: 128px;
+}
+
 .contact-details address {
   color: var(--muted);
   font-style: normal;
@@ -604,6 +613,18 @@ a {
 .contact-details a {
   color: var(--teal-dark);
   font-weight: 900;
+}
+
+.contact-details .social-link {
+  align-items: center;
+  background: #1877f2;
+  border-radius: 8px;
+  color: var(--white);
+  display: inline-flex;
+  justify-content: center;
+  max-width: 170px;
+  min-height: 44px;
+  padding: 10px 14px;
 }
 
 .map-card {

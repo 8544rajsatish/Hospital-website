@@ -28,9 +28,14 @@ appointmentForm?.addEventListener("submit", (event) => {
   }
 
   const submitButton = appointmentForm.querySelector('button[type="submit"]');
+  const nextInput = appointmentForm.querySelector('input[name="_next"]');
+
+  if (nextInput && window.location.protocol !== "file:") {
+    nextInput.value = `${window.location.origin}${window.location.pathname.replace(/index\.html$/, "")}thank-you.html`;
+  }
 
   if (statusText) {
-    statusText.textContent = "Sending appointment request...";
+    statusText.textContent = "Sending your appointment request...";
   }
 
   submitButton?.setAttribute("disabled", "true");

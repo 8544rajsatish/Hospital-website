@@ -35,7 +35,7 @@ http://localhost:4173
 
 ## Appointment email
 
-The appointment form uses FormSubmit and sends requests to `sheobachansinghchildspecialist@gmail.com`, with a copy to `sheobachansingh@childhospital.in`.
+The appointment form uses FormSubmit and sends requests to `sheobachansingh@childhospital.in`, with a copy to `sheobachansinghchildspecialist@gmail.com`.
 
 On the first live submission, FormSubmit may send an activation email. Open that email and confirm it once to start receiving future appointment requests.
 

@@ -33,6 +33,12 @@ http://localhost:4173
 3. Leave the build command empty.
 4. Set the publish directory to `.`.
 
+## Appointment email
+
+The appointment form uses FormSubmit and sends requests to `sheobachansinghchildspecialist@gmail.com`, with a copy to `sheobachansingh@childhospital.in`.
+
+On the first live submission, FormSubmit may send an activation email. Open that email and confirm it once to start receiving future appointment requests.
+
 ## Files
 
 - `index.html` - page structure and content

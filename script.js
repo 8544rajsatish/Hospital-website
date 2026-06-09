@@ -23,14 +23,15 @@ siteNav?.addEventListener("click", (event) => {
 });
 
 appointmentForm?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const data = new FormData(appointmentForm);
-  const name = String(data.get("name") || "").trim().split(" ")[0] || "there";
-
-  statusText.textContent = `Thanks, ${name}. Our appointment desk will call you shortly.`;
-  appointmentForm.reset();
-
-  if (dateInput) {
-    dateInput.min = new Date().toISOString().slice(0, 10);
+  if (!appointmentForm.checkValidity()) {
+    return;
   }
+
+  const submitButton = appointmentForm.querySelector('button[type="submit"]');
+
+  if (statusText) {
+    statusText.textContent = "Sending appointment request...";
+  }
+
+  submitButton?.setAttribute("disabled", "true");
 });
